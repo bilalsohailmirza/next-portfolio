@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import image from '@/public/image.jpg'
+import image from "@/public/image.jpg";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -63,14 +63,13 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-            
-        <span className="font-bold">Hello, 👋 I'm Bilal — a </span> {" "}
+        <span className="font-bold">Hello, 👋 I'm Bilal — a </span>{" "}
         <span className="font-bold">Full-Stack Developer </span>
         <span className="">with a year of experience. </span>
         <br />
-        Currently seeking opportunities in {" "}
-        <br />
-        <span className="underline">Backend Development and DevOps</span>.
+        Currently seeking opportunities in <br />
+        <span className="underline">Backend Development</span> and{" "}
+        <span className="underline"> DevOps</span>.
       </motion.h1>
 
       <motion.div

@@ -1,11 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { LuGraduationCap } from "react-icons/lu";
 
-import stockImg from "@/public/stockBuddy.png"
-import cosmicImg from "@/public/cosmicjewells.png"
-import campusImg from "@/public/CampusConnect.png"
-
+import stockImg from "@/public/stockBuddy.png";
+import cosmicImg from "@/public/cosmicjewells.png";
+import campusImg from "@/public/CampusConnect.png";
 
 export const links = [
   {
@@ -59,6 +57,22 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Campus Connect",
+    description:
+      "A centralized system to manage student societies affairs at FAST Karachi Campus.",
+    tags: [
+      "Java",
+      "TypeScript",
+      "SpringBoot",
+      "Next.js",
+      "Python",
+      "Langchain",
+      "Flask",
+      "PostgreSQL",
+    ],
+    imageUrl: campusImg,
+  },
+  {
     title: "Cosmic Jewels",
     description:
       "I worked as a freelance developer on this project for a jewllery design startup. I setup there website for displaying their services and portfolio.",
@@ -72,25 +86,18 @@ export const projectsData = [
     tags: ["Django", "MySQL", "Tensorflow", "Keras", "React", "Next.js"],
     imageUrl: stockImg,
   },
-  {
-    title: "Campus Connect",
-    description:
-      "A centralized system to manage student societies affairs at FAST Karachi Campus.",
-    tags: ["TypeScript", "Java", "Next.js", "SpringBoot", "Python", "Langchain", "Flask", "PostgreSQL"],
-    imageUrl: campusImg,
-  },
 ] as const;
 
 export const skillsData = [
-  "Python",
   "Java",
   "C#",
   "JavaScript",
   "TypeScript",
-  "Node.js",
-  "Express",
+  "Python",
   "Spring Boot",
   ".NET",
+  "Node.js",
+  "Express",
   "Flask",
   "PostgreSQL",
   "MongoDB",
@@ -100,5 +107,6 @@ export const skillsData = [
   "Redux",
   "Git",
   "Docker",
-  "Kubernetes"
+  "Kubernetes",
+  "AWS",
 ] as const;
